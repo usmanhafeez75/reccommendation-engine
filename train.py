@@ -30,7 +30,7 @@ train_item_ids = train['product_id'].values
 train_labels = train['rating'].values
 
 # Train the model
-model.fit([train_user_ids, train_item_ids], train_labels, epochs=1, batch_size=64)
+model.fit([train_user_ids, train_item_ids], train_labels, epochs=10, batch_size=64)
 
 # Save the trained model
 tf.keras.models.save_model(model, "ncf_model.keras")
