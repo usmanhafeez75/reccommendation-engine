@@ -31,17 +31,22 @@ python data_preprocessing.py
 5. **Train the model**
 
 ```shell
-python model.py
+python train.py
+```
+
+6. **Evaluate the model**
+```shell
+python evaluate.py
 ```
 
 
-6. **Run the Flask application**
+7. **Run the Flask application**
 
 ```shell
 python app.py
 ```
 
-7. **Access the recommendations**
+8. **Access the recommendations**
 
 Open your web browser and go to http://127.0.0.1:5000/recommend?user_id=<USER_ID> to get recommendations for a user.
 
