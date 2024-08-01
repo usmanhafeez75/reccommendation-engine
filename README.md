@@ -7,7 +7,7 @@ This project implements an AI-powered recommendation engine using the Amazon Pro
 1. **Clone the repository**
 
 ```shell
-git clone https://github.com/yourusername/recommendation_engine.git
+git clone [https://github.com/yourusername/recommendation_engine.git](https://github.com/usmanhafeez75/reccommendation-engine.git)
 cd recommendation_engine
 ```
    
